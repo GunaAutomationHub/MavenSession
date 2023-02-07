@@ -1,0 +1,11 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testing-1.0.dtd">
+<suite name="sanity">
+	<parameter name="username" value="tstbreaker1993@gmail.com"/>
+	<parameter name="password" value="Test@123"/>
+	<test name="functional">
+		<classes>
+		<class name="com.mavensession.qa.test.LoginTest"></class>
+		</classes>
+	</test>
+</suit>

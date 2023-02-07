@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.mavensession.qa.test.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.523 s <<< FAILURE! - in com.mavensession.qa.test.LoginTest
+Login(com.mavensession.qa.test.LoginTest)  Time elapsed: 1.014 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'username' is required by @Test on method Login but has not been marked @Optional or defined
+
+
+tearDown(com.mavensession.qa.test.LoginTest)  Time elapsed: 1.061 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.mavensession.qa.test.LoginTest.tearDown(LoginTest.java:37)
+
